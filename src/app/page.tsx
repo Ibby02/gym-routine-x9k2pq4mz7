@@ -264,8 +264,14 @@ const supplementCategories = [
   },
 ];
 
+const getTodayIndex = () => {
+  const d = new Date().getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
+  return (d + 6) % 7; // shift so Mon=0, Tue=1, ..., Sun=6
+};
+
 export default function Home() {
-  const [selectedDay, setSelectedDay] = useState(0);
+  
+  const [selectedDay, setSelectedDay] = useState(getTodayIndex());
   const [activeTab, setActiveTab] = useState("meals");
   const [expandedSupp, setExpandedSupp] = useState<string | null>(null);
 
