@@ -127,7 +127,7 @@ const workouts = [
       { name: "Romanian Deadlift", sets: "3", reps: "8", rest: "2–3 min", note: "Feel the hamstring stretch at the bottom" },
       { name: "Leg Press", sets: "3", reps: "10–12", rest: "90 sec", note: null },
       { name: "Leg Curl (machine)", sets: "3", reps: "12", rest: "60 sec", note: null },
-      { name: "Hip Thrust (barbell)", sets: "3", reps: "12", rest: "90 sec", note: "Best glute exercise — squeeze hard at the top" },
+      { name: "Bulgarian Split Squat", sets: "3", reps: "10 each leg", rest: "90 sec", note: "Rear foot on bench, front foot forward, dumbbell in each hand — drive through the heel" },
       { name: "Calf Raises", sets: "4", reps: "15–20", rest: "45 sec", note: "Pause at top and bottom of every rep" },
       { name: "Plank", sets: "3", reps: "60 sec", rest: "45 sec", note: "Full core stability — keep body in a straight line" },
     ],
@@ -224,9 +224,9 @@ const supplementCategories = [
     items: [
       {
         name: "Zinc (with Vitamin C)",
-        dose: "2 tablets daily",
+        dose: "1 tablet daily",
         timing: "With food — never on empty stomach",
-        detail: "2 tablets = 30mg zinc + 120mg Vit C. Zinc RDI is 10mg so 30mg is therapeutic for acne. Vit C bonus helps skin too.",
+        detail: "1 tablet = 15mg zinc + 60mg Vit C. Zinc RDI is 10mg so 15mg is therapeutic for acne. Vit C bonus helps skin too.",
         color: "#4ade80",
       },
       {
