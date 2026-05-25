@@ -109,7 +109,7 @@ const workouts = [
   {
     day: "Tuesday", type: "Pull", emoji: "💪", focus: "Back · Biceps", color: "#3b82f6",
     exercises: [
-      { name: "Barbell Rows", sets: "4", reps: "5", rest: "3 min", note: "Main compound — add 2.5kg when all reps are clean" },
+      { name: "Deadlift", sets: "4", reps: "5", rest: "3 min", note: "Heaviest lift of the week — add 5kg when all reps are clean" },
       { name: "Pull-Ups / Lat Pulldown", sets: "3", reps: "8", rest: "2 min", note: "Use lat pulldown if pull-ups are too hard yet" },
       { name: "Cable Rows", sets: "3", reps: "10–12", rest: "90 sec", note: "Squeeze at the end of each rep" },
       { name: "Face Pulls", sets: "3", reps: "15", rest: "60 sec", note: "Great for shoulder health — don't skip" },
@@ -149,7 +149,7 @@ const workouts = [
   {
     day: "Friday", type: "Pull", emoji: "💪", focus: "Back · Biceps", color: "#3b82f6",
     exercises: [
-      { name: "Deadlift", sets: "4", reps: "5", rest: "3 min", note: "Heaviest lift of the week — add 5kg when all reps are clean" },
+      { name: "Barbell Rows", sets: "4", reps: "5", rest: "3 min", note: "Main compound — add 2.5kg when all reps are clean" },
       { name: "Chest-Supported Row", sets: "3", reps: "10", rest: "2 min", note: "Takes lower back fatigue out of the equation" },
       { name: "Wide-Grip Lat Pulldown", sets: "3", reps: "10–12", rest: "90 sec", note: null },
       { name: "Single-Arm Dumbbell Row", sets: "3", reps: "12", rest: "60 sec", note: null },
@@ -226,7 +226,7 @@ const supplementCategories = [
         name: "Zinc (with Vitamin C)",
         dose: "1 tablet daily",
         timing: "With food — never on empty stomach",
-        detail: "1 tablet = 15mg zinc + 60mg Vit C. Zinc RDI is 10mg so 15mg is therapeutic for acne. Vit C bonus helps skin too.",
+        detail: "1 tablet = 15mg zinc + 60mg Vit C. Sits comfortably within the NHS safe limit of 25mg/day. Therapeutic for acne and hormone support without the copper depletion risk of higher doses.",
         color: "#4ade80",
       },
       {
@@ -243,9 +243,9 @@ const supplementCategories = [
     items: [
       {
         name: "Magnesium Bisglycinate",
-        dose: "2 tablets before bed",
+        dose: "3 tablets before bed",
         timing: "30–60 mins before bed",
-        detail: "Your tablet = 113mg elemental magnesium. 2 tablets = 226mg, well within the NHS safe limit of 400mg/day. Combined with magnesium from food, this hits the sweet spot for sleep and muscle recovery.",
+        detail: "Your tablet = 113mg elemental magnesium. 3 tablets = 339mg, well within the NHS safe limit of 400mg/day. Combined with magnesium from food, this hits the sweet spot for sleep and muscle recovery.",
         color: "#8b5cf6",
       },
       {
